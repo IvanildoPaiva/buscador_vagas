@@ -1,9 +1,11 @@
 # Buscador de Vagas de Emprego
 
 
-Projeto desenvolvido como parte de um estudo prático de ReactJS, focado em boas práticas, componentização, hooks e arquitetura de software limpa.
-demo do projeto:
-https://imgur.com/a/iW28hTf
+Projeto desenvolvido como parte de um estudo prático de ReactJS, focado em boas práticas, componentização, hooks e arquitetura de software limpo.
+#
+Demo do Projeto.
+![Demo da Aplicação](https://i.imgur.com/S1dyujw.png)
+
 ## ✨ Funcionalidades
 
 - **Listagem de Vagas:** Consome a API da Remotive para buscar e exibir vagas de emprego remotas.
