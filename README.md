@@ -1,12 +1,43 @@
-# React + Vite
+# Buscador de Vagas de Emprego
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Projeto desenvolvido como parte de um estudo prático de ReactJS, focado em boas práticas, componentização, hooks e arquitetura de software limpa.
+demo do projeto:
+https://imgur.com/a/iW28hTf
+## ✨ Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Listagem de Vagas:** Consome a API da Remotive para buscar e exibir vagas de emprego remotas.
+- **Busca em Tempo Real:** Filtra as vagas por cargo, empresa ou tecnologia conforme o usuário digita.
+- **Otimização com Debouncing:** A busca só é acionada após o usuário parar de digitar, garantindo a performance da aplicação.
+- **Roteamento:** Aplicação com múltiplas páginas (Home e Detalhes da Vaga) utilizando `react-router-dom`.
+- **Design Responsivo:** Interface limpa e agradável que se adapta a diferentes tamanhos de ecrã.
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologias e Padrões Utilizados
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **ReactJS** (com Hooks)
+- **Vite** (Ambiente de desenvolvimento)
+- **JavaScript**
+- **CSS Modules** (Estilização por componente)
+- **Axios** (Cliente HTTP para chamadas à API)
+- **React Router DOM** (Para roteamento)
+- **Padrões de Projeto:**
+  - Arquitetura em Camadas (Services, Hooks, UI)
+  - Custom Hooks (`useFetchJobs`, `useDebounce`)
+  - Elevação de Estado (Lifting State Up)
+  - Componentes Controlados
+
+## ⚙️ Como Executar o Projeto Localmente
+
+```bash
+# 1. Clone o repositório
+git clone https://github.com/IvanildoPaiva/buscador_vagas.git-vagas.git
+
+# 2. Navegue até a pasta do projeto
+cd jobs
+
+# 3. Instale as dependências
+npm install
+
+# 4. Inicie a aplicação
+npm run dev
+
