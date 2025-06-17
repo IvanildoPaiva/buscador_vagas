@@ -32,10 +32,10 @@ Demo do Projeto.
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/IvanildoPaiva/buscador_vagas.git-vagas.git
+git clone https://github.com/IvanildoPaiva/buscador_vagas.git
 
 # 2. Navegue até a pasta do projeto
-cd jobs
+cd buscador_vagas
 
 # 3. Instale as dependências
 npm install
