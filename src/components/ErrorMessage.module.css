@@ -1,0 +1,13 @@
+/* src/components/ErrorMessage.module.css */
+.errorContainer {
+    border: 1px solid #ffcdd2;
+    background-color: #ffebee;
+    color: #c62828;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .errorMessage {
+    font-weight: bold;
+  }
